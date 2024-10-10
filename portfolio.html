@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>         * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4c9c9;
+   
+}
+
+header {
+    background: #4CAF50;
+    color: #f5f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: hsl(17, 50%, 87%);
+    text-decoration:wavy;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project {
+    background:rgb(166, 236, 150);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.project img {
+    max-width: auto;
+    height: auto;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+  
+}  
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Komal</h1>
+            <nav>
+                <ul>
+                    <li><u><a href="#about">About</a></u></li>
+                    <li><u><a href="#projects">Projects</a></u></li>
+                    <li><u><a href="#contact">Contact</a></u></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p> Hey, i'm komal. I'm a student of Web Designing in Hartron Ambala city. I like to learning new skills. Satch making and listning music  is my hobby. I have deep interest learning about physiology.  </p>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3> A Potfolio</h3>
+            <img src="data:image/png;base64,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">
+            <p>A portfolio website is a centralized online space that showcases an individual's or company's work, skills, and experiences.</p>
+            <a href="http://127.0.0.1:3000/portfolio.html" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Virtual Keyboard</h3>
+            <img src="https://www.google.com/imgres?q=virtual%20keyboard&imgurl=https%3A%2F%2Flh3.googleusercontent.com%2FuprEP-HxX6dwlWGNZ9pE5aMoZz6CjSOrz35oQvBICdRo5hHzHRMfh50QWLfj3eE0lXj4clxPv4Rp4hX49D2m3pXZ%3Ds1280-w1280-h800&imgrefurl=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fhot-virtual-keyboard-exte%2Fbdejgojmfhngmomodldpdppfbhoajadl&docid=8kmXK0Tp_Q7dhM&tbnid=cH3_u59lUHdB1M&vet=12ahUKEwiWkaWJ2IOJAxXD1DgGHRt2EkAQM3oECC8QAA..i&w=1280&h=800&hcb=2&ved=2ahUKEwiWkaWJ2IOJAxXD1DgGHRt2EkAQM3oECC8QAA">
+            <p>A virtual keyboard is a software-based interface that allows users to input text or commands on a touch-sensitive device, such as a smartphone, tablet, or touchscreen computer, without using a physical keyboard.</p>
+            <a href="http://127.0.0.1:5500/virtualkey.html" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Get In Touch</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Komal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
